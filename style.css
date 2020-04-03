@@ -1,0 +1,142 @@
+/* Class Selectors */
+.topleft-navbar {
+    float: left;
+    margin-top: 8px;
+}
+
+.topright-navbar {
+    float: right;
+    margin-right: 14px;
+}
+
+.bottomleft-navbar {
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.bottomright-navbar {
+    float: right;
+    margin-top: 14px;
+    margin-right: 20px;
+    
+}
+
+.country {
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.signin-button {
+    background-color: #4285f4;
+    border: 0;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 5px 14px;
+}
+
+.apps-icon {
+    vertical-align: -12px;
+}
+
+.logo {
+    padding-top: 125px;
+    text-align: center;
+}
+
+/* for div that contains search input */ 
+.search-field {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-input {
+    background-color: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 50px;
+    height: 30px;
+    padding: 8px;
+    width: 500px;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-button {
+    background-color: #f2f2f2;
+    border: 0;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 13px;
+    margin: 10px 5px;
+    padding: 10px 14px;
+}
+
+.search-button:hover {
+    border: 1px solid #c6c6c6;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ID Selectors */
+#header {
+    padding: 15px;
+}
+
+#footer1 {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 50px;
+    line-height: 15px;
+    width: 100%;
+    bottom: 50px;
+    position: absolute;
+}
+
+#footer2 {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4; 
+    height: 50px;
+    line-height: 25px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+
+#coronavirus-note {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#language-note {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#country {
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+/* Type Selectors */
+li {
+    display: inline-block;
+}
+
+a {
+    color: #5F6368;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

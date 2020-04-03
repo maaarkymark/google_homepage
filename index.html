@@ -1,27 +1,89 @@
-<html>
+<!DOCTYPE html>
 
-    <head>
+<html lang="en">
 
-        <title>Marc's Google Homepage</title>
+<head>
 
-    </head>
+    <title>Marc's Google Homepage</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-    <body>
+</head>
 
-        <h1>Marc's Google Homepage</h1>
+<header>
 
-        <p>One paragraph of text.</p>
+    <div id="header">
+        <div class="topleft-navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#store">Store</a></li>
+            </ul>
+        </div>
+        <div class="topright-navbar">
+            <ul>
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#apps"><img class="apps-icon" alt="Apps" src="apps-icon.png"></a></li>
+                <li><input class="signin-button" value="Sign In" type="submit"></li>
+            </ul>
+        </div>
+    </div>
 
-        <p>Another paragraph of text, containing an emphasized <em>word</em>.</p>
+</header>
 
-        <h2>A list of items</h2>
-        
-        <ul>
-            <li>First item</li>
-            <li>Second item</li>
-            <li>Third item</li>
-        </ul>
+<body>
 
-    </body>
+    <div class="logo">
+        <img alt="Google" src="google-logo.png">
+    </div>
+    <div class="search-field">
+        <input class="search-input" type="text" autofocus>
+    </div>
+
+    <div class="button">
+        <input class="search-button" value="Google Search" type="submit">
+        <input class="search-button" value="I'm Feeling Lucky" type="submit">
+    </div>
+
+    <div id="coronavirus-note">
+        <a href="">Get more information about the coronavirus</a>
+    </div>
+
+    <div id="language-note">
+        Google offered in: <a href="">Français</a>
+    </div>
+
+</body>
+
+<footer>
+
+    <div id="footer1">
+        <div id="country">
+            <ul>
+                <li><a href="#canada">Canada</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer2">
+        <div class="bottomleft-navbar">
+            <ul>
+                <li><a href="#advertising">Advertising</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#howsearchworks">How Search works</a></li>
+            </ul>
+        </div>
+
+        <div class="bottomright-navbar">
+            <ul>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#terms">Terms</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
 
 </html>
